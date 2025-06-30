@@ -1,0 +1,20 @@
+uuid: 83406430-a85e-4586-90ff-49de773cdfc6
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - mexant
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: mexant_primary_admin_actions
+theme: mexant
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

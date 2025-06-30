@@ -1,0 +1,16 @@
+name: 'mexant'
+type: theme
+description: 'A custom theme - mexant for Drupal 11.'
+core_version_requirement: ^11
+package: Custom
+
+base theme: false
+
+regions:
+  header: 'Header'
+  sidebar: 'Sidebar'
+  content: 'Content'
+  footer: 'Footer'
+
+libraries:
+  - mexant/global-styling

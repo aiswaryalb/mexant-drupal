@@ -1,0 +1,22 @@
+uuid: de5af1ea-ea78-4953-b108-235fa2b75926
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - mexant
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: mexant_primary_local_tasks
+theme: mexant
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
