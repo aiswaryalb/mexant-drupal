@@ -1,0 +1,19 @@
+uuid: 0679a32b-bd4e-4aa0-aa01-77979bf784ee
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_contact_us
+field_name: field_contact_us
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

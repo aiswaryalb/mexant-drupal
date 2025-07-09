@@ -1,0 +1,59 @@
+uuid: e449b3b3-d21b-4a9c-ab73-a353d161ba7c
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slides.field_background_image
+    - field.field.paragraph.slides.field_contact_us
+    - field.field.paragraph.slides.field_content
+    - field.field.paragraph.slides.field_discover_more
+    - paragraphs.paragraphs_type.slides
+  module:
+    - link
+    - text
+id: paragraph.slides.default
+targetEntityType: paragraph
+bundle: slides
+mode: default
+content:
+  field_background_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_contact_us:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_content:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_discover_more:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

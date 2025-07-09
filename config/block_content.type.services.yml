@@ -1,0 +1,8 @@
+uuid: edf3c580-2821-46cd-8b87-5e38306592da
+langcode: en-gb
+status: true
+dependencies: {  }
+id: services
+label: Services
+revision: false
+description: 'Home services block'

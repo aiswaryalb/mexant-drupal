@@ -2,8 +2,8 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en-gb
 uuid: 49c00a9f-5b9a-4cd6-b200-6c77a985dfaf
-name: Drupal
-mail: ''
+name: mexantdrupal
+mail: abc@gmail.com
 slogan: ''
 page:
   403: ''

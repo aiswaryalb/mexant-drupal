@@ -1,0 +1,10 @@
+uuid: 0257cc30-e0d3-4310-be6b-513f295c2fc3
+langcode: en-gb
+status: true
+dependencies: {  }
+id: slides
+label: Slides
+icon_uuid: null
+icon_default: null
+description: 'Paragraph for hero banner block type'
+behavior_plugins: {  }
